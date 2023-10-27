@@ -1,0 +1,74 @@
+body{
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     background-color: rgba(83, 121, 119, 0.99);
+     text-align: center;
+     margin-left: 20px;
+     margin-right: 20px;
+     padding: 6px;
+    }
+header{
+    background-color: rgba(196, 172, 51, 0.581);
+    padding: 6px;
+    }
+footer{
+    background-color: rgba(196, 172, 51, 0.581);
+    padding: 6px;
+}
+ul a{
+    color: white;
+    text-decoration: dashed;
+}
+li{
+    display: inline-block;
+    height: 22px; ;
+    width: 200px;
+    padding: 12px ;
+    text-align: center;
+    color:white;
+    border-left: 2px solid green;
+    border-right: 2px solid green;
+    background-color: rgb(80, 121, 97);
+}
+li:hover{
+   background-color: yellowgreen; 
+   border-style: none ;
+}
+img{
+    border-style: groove;
+    border-color: rgba(196, 172, 51, 0.581);
+}
+table{
+    border-collapse: collapse;
+    width: 800px;
+    border: 2px;
+    border-width: 2px;
+}
+table, th, td{
+    border: 3px solid;
+    padding: 6px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+input[type="text"], input[type="email"], textarea, button{
+    display: block;
+    margin: 15px 5px;
+    width: 500px;
+    height: 65px;
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: inset 2px 2px 5px rgb(222, 192, 192);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 6px;
+    }
+textarea{
+height: 300px;
+}
+button:active{
+    background-color: rgb(144, 164, 238);
+    color: blue;
+    border-radius: 8px;
+    box-shadow: inset 5px 5px 5px rgb(45, 113, 45);
+    }
+    
